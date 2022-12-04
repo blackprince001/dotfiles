@@ -1,0 +1,10 @@
+alias zshconfig="nano ~/.zshrc"
+alias ohmyzsh="nano ~/.oh-my-zsh"
+alias apps-update="sudo nala update && sudo nala upgrade && flatpak update"
+alias cls="clear"
+alias ex="exit"
+alias appremove="sudo apt-get remove"
+alias autoremove-apps="sudo apt-get autoremove"
+alias install="sudo nala install"
+alias python=python3
+alias ll=k

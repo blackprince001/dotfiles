@@ -1,0 +1,2 @@
+# Configuration for my terminal
+
