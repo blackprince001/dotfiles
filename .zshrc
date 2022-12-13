@@ -56,7 +56,7 @@ ENABLE_CORRECTION="true"
 # You can also set it to another string to have that shown instead of the default red dots.
 # e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
 # Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -81,7 +81,8 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 
 # make sure to install k from github
-# plugins=(k aliases ubuntu poetry)
+plugins=(aliases ubuntu)
+# dont forget to install poetry from github
 
 
 # Preferred editor for local and remote sessions
@@ -109,17 +110,9 @@ alias appremove="sudo apt-get remove"
 alias autoremove-apps="sudo apt-get autoremove"
 alias install="sudo nala install"
 alias python=python3
-alias ll=k
+alias processes=btop
 
 # sourcing Rust package manager
 # source "$HOME/.cargo/env"
-
-# Remember to hide the autocomplete and syntax highlighting folders when you download to ~
-source ~/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
-
-# beware of the startup time for your prompt if you dont want it to be slow. dont start both widgets at the same time
-# source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source $ZSH/oh-my-zsh.sh
