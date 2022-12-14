@@ -1,0 +1,13 @@
+clipman@popov895.ukr.net
+sound-output-device-chooser@kgshank.net
+space-bar@luchrioh
+tiling-assistant@leleat-on-github
+user-theme@gnome-shell-extensions.gcampax.github.com
+places-menu@gnome-shell-extensions.gcampax.github.com
+apps-menu@gnome-shell-extensions.gcampax.github.com
+appMenuIcon@pratap.fastmail.fm
+Vitals@CoreCoding.com
+rounded-window-corners@yilozt
+ding@rastersoft.com
+ubuntu-appindicators@ubuntu.com
+ubuntu-dock@ubuntu.com
