@@ -1,7 +1,7 @@
 sudo add-apt-repository universe
 
 # gnome-tweaks for managing gnome customizations
-if [ $(command -v gnome-tweaks)]
+if [-x $(command -v gnome-tweaks)]
 then
     echo "gnome-tweaks has already been installed"
 else
@@ -9,7 +9,7 @@ else
 fi
 
 # install zsh
-if [-v $(command -v zsh)]
+if [-x $(command -v zsh)]
 then
     echo "zsh has already been installed"
 else
@@ -17,7 +17,7 @@ else
 fi
 
 # install btop for status visualizations
-if [-v $(command -v btop)]
+if [-x $(command -v btop)]
 then
     echo "btop has already been installed"
 else
@@ -33,7 +33,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
 
 # installing flathub
-if [-v $(command -v flatpak)]
+if [-x $(command -v flatpak)]
 then
     echo "flatpak has already been installed"
 else
