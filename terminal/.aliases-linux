@@ -7,4 +7,3 @@ alias appremove="sudo apt-get remove"
 alias autoremove-apps="sudo apt-get autoremove"
 alias install="sudo nala install"
 alias python=python3
-alias ll=k
