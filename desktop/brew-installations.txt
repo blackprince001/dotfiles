@@ -22,6 +22,7 @@ python@3.11
 readline
 ripgrep
 sqlite
+trash
 tree
 wget
 xz
