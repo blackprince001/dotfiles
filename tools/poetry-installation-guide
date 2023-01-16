@@ -1,0 +1,8 @@
+# Tips
+
+- Always install with Pipx
+- Change the config of virtualenvs with the config preset
+- Export poetry path to current shell
+  - Setting up Poetry with this export
+    - export PATH="$HOME/.poetry/bin:$PATH"
+    - export PATH="$HOME/.local/bin:$PATH"
