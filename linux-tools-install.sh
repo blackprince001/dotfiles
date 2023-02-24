@@ -9,12 +9,13 @@ else
 fi
 
 # install zsh
-if [-x $(command -v zsh)]
-then
-    echo "zsh has already been installed"
-else
-    sudo apt-get install zsh
-fi
+# Now have the option to install zsh with starship or OhMyZsh
+# if [-x $(command -v zsh)]
+# then
+#     echo "zsh has already been installed"
+# else
+#     sudo apt-get install zsh
+# fi
 
 # install btop for status visualizations
 if [-x $(command -v btop)]

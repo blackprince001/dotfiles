@@ -1,5 +1,5 @@
 alias zshconfig="nano ~/.zshrc"
-alias ohmyzsh="nano ~/.oh-my-zsh"
+# alias ohmyzsh="nano ~/.oh-my-zsh"
 alias apps-update="sudo nala update && sudo nala upgrade && flatpak update"
 alias cls="clear"
 alias ex="exit"
