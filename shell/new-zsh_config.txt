@@ -1,0 +1,61 @@
+source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+# # Set up the prompt
+
+# autoload -Uz promptinit
+# promptinit
+# prompt adam1
+
+# setopt histignorealldups sharehistory
+
+# # Use emacs keybindings even if our EDITOR is set to vi
+# bindkey -e
+
+# # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.zsh_history
+
+# Use modern completion system
+#fpath+=~/.zfunc
+#autoload -Uz compinit && compinit
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# zstyle ':completion:*' auto-description 'specify: %d'
+# zstyle ':completion:*' completer _expand _complete _correct _approximate
+# zstyle ':completion:*' format 'Completing %d'
+# zstyle ':completion:*' group-name ''
+# zstyle ':completion:*' menu select=2
+# eval "$(dircolors -b)"
+# zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+# zstyle ':completion:*' list-colors ''
+# zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
+# zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=* l:|=*'
+# zstyle ':completion:*' menu select=long
+# zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
+# zstyle ':completion:*' use-compctl false
+# zstyle ':completion:*' verbose true
+
+# zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
+# zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
+
+alias zshconfig="nano ~/.zshrc"
+# alias ohmyzsh="nano ~/.oh-my-zsh"
+alias apps-update="sudo nala update && sudo nala upgrade && flatpak update"
+alias cls="clear"
+alias ex="exit"
+alias appremove="sudo apt-get remove"
+alias autoremove-apps="sudo apt-get autoremove"
+alias install="sudo nala install"
+# ls, the common ones I use a lot shortened for rapid fire usage
+alias ll='exa -lB'
+alias ls='exa'
+alias l='exa -lB -a'
+alias lgit='exa -lB --git'
+alias activate='source .venv/bin/activate'
+
+eval "$(starship init zsh)"
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
