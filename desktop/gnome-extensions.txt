@@ -1,11 +1,9 @@
+gestureImprovements@gestures
 clipman@popov895.ukr.net
-sound-output-device-chooser@kgshank.net
+sp-tray@sp-tray.esenliyim.github.com
 space-bar@luchrioh
 tiling-assistant@leleat-on-github
 user-theme@gnome-shell-extensions.gcampax.github.com
-places-menu@gnome-shell-extensions.gcampax.github.com
-apps-menu@gnome-shell-extensions.gcampax.github.com
-appMenuIcon@pratap.fastmail.fm
 Vitals@CoreCoding.com
 rounded-window-corners@yilozt
 ding@rastersoft.com

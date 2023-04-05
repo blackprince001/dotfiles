@@ -23,6 +23,7 @@ HISTFILE=~/.zsh_history
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+
 # zstyle ':completion:*' auto-description 'specify: %d'
 # zstyle ':completion:*' completer _expand _complete _correct _approximate
 # zstyle ':completion:*' format 'Completing %d'
@@ -55,7 +56,15 @@ alias ls='exa'
 alias l='exa -lB -a'
 alias lgit='exa -lB --git'
 alias activate='source .venv/bin/activate'
+alias clear-shell='cat /dev/null > ~/.zsh_history && exit'
+alias python=python3
+alias history='atuin search -i'
 
 eval "$(starship init zsh)"
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Created by `pipx` on 2023-03-30 21:03:07
+export PATH="$PATH:/home/blackprince/.local/bin"
+
+eval "$(atuin init zsh)"
