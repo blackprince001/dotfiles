@@ -1,11 +1,10 @@
 gestureImprovements@gestures
-clipman@popov895.ukr.net
-sp-tray@sp-tray.esenliyim.github.com
+pano@elhan.io
 space-bar@luchrioh
 tiling-assistant@leleat-on-github
-user-theme@gnome-shell-extensions.gcampax.github.com
 Vitals@CoreCoding.com
 rounded-window-corners@yilozt
+mprisLabel@moon-0xff.github.com
 ding@rastersoft.com
 ubuntu-appindicators@ubuntu.com
 ubuntu-dock@ubuntu.com
