@@ -1,0 +1,10 @@
+Installed blackbox as new terminal emulator
+
+- add blackbox as an emulator to config
+    `sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /var/lib/flatpak/exports/bin/com.raggesilver.BlackBox`
+
+- set blackbox as default emulator
+    `sudo update-alternatives --config x-terminal-emulator`
+
+- follow the tutorial on this site if you want to add 'open with terminal' on nautilus
+    `https://fostips.com/open-in-terminal-other-emulator-gnome/`
