@@ -1,10 +1,13 @@
 gestureImprovements@gestures
 pano@elhan.io
 space-bar@luchrioh
-tiling-assistant@leleat-on-github
 Vitals@CoreCoding.com
-rounded-window-corners@yilozt
 mprisLabel@moon-0xff.github.com
+quick-settings-audio-panel@rayzeq.github.io
+user-theme@gnome-shell-extensions.gcampax.github.com
+tiling-assistant@leleat-on-github
 ding@rastersoft.com
 ubuntu-appindicators@ubuntu.com
 ubuntu-dock@ubuntu.com
+vertical-workspaces@G-dH.github.com
+custom-hot-corners-extended@G-dH.github.com
