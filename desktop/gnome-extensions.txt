@@ -1,14 +1,9 @@
 gestureImprovements@gestures
 pano@elhan.io
-Vitals@CoreCoding.com
-mprisLabel@moon-0xff.github.com
-activities-filled-pill@verdre
-AlphabeticalAppGrid@stuarthayhurst
+quick-settings-tweaks@qwreey
 dash-to-panel@jderose9.github.com
 rounded-window-corners@yilozt
-quick-settings-audio-panel@rayzeq.github.io
 user-theme@gnome-shell-extensions.gcampax.github.com
-custom-hot-corners-extended@G-dH.github.com
 tiling-assistant@leleat-on-github
 tophat@fflewddur.github.io
 ubuntu-appindicators@ubuntu.com

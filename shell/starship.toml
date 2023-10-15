@@ -19,8 +19,8 @@ symbol = "🧊 "
 
 [character]
 disabled = false
-success_symbol = "🍀 " 
-error_symbol = "🍁 "
+success_symbol = "[>](bold blue) " 
+error_symbol = "[>](bold red) "
 
 [line_break]
 disabled = true
@@ -30,9 +30,9 @@ disabled = false
 show_always = true
 style_user = 'bold green'
 style_root = 'red'
-format = '[\[$user]($style)'
+format = '[$user@]($style)'
 
 [hostname]
 ssh_only = false
-format = '[@$hostname\]](bold green) '
+format = '[$hostname](bold green):'
 disabled = false

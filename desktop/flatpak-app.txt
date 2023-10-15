@@ -1,20 +1,20 @@
-Bitwarden	com.bitwarden.desktop	2023.8.2	stable	system
-Discord	com.discordapp.Discord	0.0.29	stable	system
+Bitwarden	com.bitwarden.desktop	2023.9.2	stable	system
+Discord	com.discordapp.Discord	0.0.31	stable	system
 Foliate	com.github.johnfactotum.Foliate	2.6.4	stable	system
-Flatseal	com.github.tchx84.Flatseal	2.0.2	stable	system
+Flatseal	com.github.tchx84.Flatseal	2.1.0	stable	system
 Extension Manager	com.mattjakeman.ExtensionManager	0.4.2	stable	system
-Spotify	com.spotify.Client	1.2.11.916.geb595a67	stable	system
+Spotify	com.spotify.Client	1.2.13.661.ga588f749	stable	system
 Amberol	io.bassi.Amberol	0.10.3	stable	system
-Figma for Linux	io.github.Figma_Linux.figma_linux	0.9.6	stable	system
-IP Lookup	io.github.bytezz.IPLookup	0.1.7	stable	system
-Flatsweep	io.github.giantpinkrobots.flatsweep	v2023.8.21	stable	system
-Mission Center	io.missioncenter.MissionCenter	0.3.2	stable	system
-Obsidian	md.obsidian.Obsidian	1.4.12	stable	system
-ImHex	net.werwolv.ImHex	1.30.1	stable	system
+IP Lookup	io.github.bytezz.IPLookup	0.1.9	stable	system
+Flatsweep	io.github.giantpinkrobots.flatsweep	v2023.10.10	stable	system
+Mission Center	io.missioncenter.MissionCenter	0.3.3	stable	system
+Obsidian	md.obsidian.Obsidian	1.4.16	stable	system
+ImHex	net.werwolv.ImHex	1.31.0	stable	system
 FreeCAD	org.freecadweb.FreeCAD	0.21.1.33694	stable	system
-Calendar	org.gnome.Calendar	44.0	stable	system
-Geary	org.gnome.Geary	44.1	stable	system
+Calendar	org.gnome.Calendar	45.0	stable	system
+Evolution	org.gnome.Evolution	3.50.0	stable	system
+Extensions	org.gnome.Extensions	45.0	stable	system
 GNOME Network Displays	org.gnome.NetworkDisplays	0.90.5	stable	system
-Video Trimmer	org.gnome.gitlab.YaLTeR.VideoTrimmer	0.8.1	stable	system
-Telegram Desktop	org.telegram.desktop	4.9.5	stable	system
-VLC	org.videolan.VLC	3.0.18	stable	system
+Video Trimmer	org.gnome.gitlab.YaLTeR.VideoTrimmer	0.8.2	stable	system
+Telegram Desktop	org.telegram.desktop	4.10.3	stable	system
+VLC	org.videolan.VLC	3.0.19	stable	system

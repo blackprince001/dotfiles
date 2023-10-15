@@ -42,29 +42,70 @@ HISTFILE=~/.zsh_history
 # zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 # zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-alias zshconfig="nano ~/.zshrc"
+alias zshconfig="open ~/.zshrc"
 # alias ohmyzsh="nano ~/.oh-my-zsh"
 alias apps-update="sudo nala update && sudo nala upgrade && flatpak update"
 alias cls="clear"
 alias ex="exit"
-alias appremove="sudo apt-get remove"
-alias autoremove-apps="sudo apt-get autoremove"
-alias install="sudo nala install"
+alias remove_app="sudo apt-get remove"
+alias autoremove_apps="sudo apt-get autoremove"
+alias install_app="sudo nala install"
 # ls, the common ones I use a lot shortened for rapid fire usage
 alias ll='exa -lB'
 alias ls='exa'
+alias lt='exa --tree --icons'
 alias l='exa -lB -a'
 alias lgit='exa -lB --git'
 alias activate='source .venv/bin/activate'
 alias clear-shell='cat /dev/null > ~/.zsh_history && exit'
-alias python=python3
 alias history='atuin search -i'
+alias home='cd ~'
+alias cd1='cd ..'
+alias cd2='cd ../..'
+alias cd3='cd ../../..'
+alias suspend-computer='sudo pm-suspend'
+alias hardware-specs='inxi -Fx'
+alias rm='trash'
+alias dlrs='download'
+alias alacritty-config='open ~/.config/alacritty/alacritty.yml'
+alias starship-config='open ~/.config/starship.toml'
 
 eval "$(starship init zsh)"
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Created by `pipx` on 2023-03-30 21:03:07
 export PATH="$PATH:/home/blackprince/.local/bin"
 
+# setup atuin magic shell
 eval "$(atuin init zsh)"
+
+# setup auto completions for zsh
+if [ -f ~/.atuin_zshell_completions ]; then
+. ~/.atuin_zshell_completions
+fi
+
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Intel ModelSim Export
+export PATH=$PATH:/opt/intelFPGA/20.1/modelsim_ase/bin/vsim
+
+alias modelsim='cd /opt/intelFPGA/20.1/modelsim_ase/bin/  && sudo ./vsim'
+
+# Installing Ruby gems to ~/gems/
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
+# go installation path
+export PATH=$PATH:/usr/local/go/bin
+
+# Mojo Modular installation path
+export QSYS_ROOTDIR="/home/blackprince/Applications/intelFPGA/quartus/sopc_builder/bin"
+export MODULAR_HOME="$HOME/.modular"
+export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"
+
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv virtualenv-init -)"
