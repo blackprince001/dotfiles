@@ -1,12 +1,10 @@
 search-light@icedman.github.com
 AlphabeticalAppGrid@stuarthayhurst
 gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com
-x11gestures@joseexposito.github.io
-dash-to-panel@jderose9.github.com
 user-theme@gnome-shell-extensions.gcampax.github.com
 rounded-window-corners@yilozt
 pano@elhan.io
-tophat@fflewddur.github.io
+monitor@astraext.github.io
 tiling-assistant@ubuntu.com
 ubuntu-appindicators@ubuntu.com
 ding@rastersoft.com
